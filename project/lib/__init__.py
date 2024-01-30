@@ -1,4 +1,4 @@
-def numbers(line, num):  # um dicionario com cada key tendo uma lista espeficicando quais segmentos devem ser ligados
+def numbers(line, num):
     if line == 1:
         linn = {1: '  #', 2: '###', 3: '###', 4: '# #', 5: '###', 6: '###', 7: '###', 8: '###', 9: '###', 0: '###'}
         return linn[num]
